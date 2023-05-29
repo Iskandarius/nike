@@ -1,0 +1,121 @@
+
+@media screen and (max-width:768px) {
+    .nav__menu-link {
+        font-size: 12px;     
+    }
+    .collection__wrap {
+        display: flex;
+        flex-direction: column;        
+    }
+    .collection__cards {
+        display: flex;
+        justify-content: center;
+    }
+    .footer__list {
+        padding-left: 15px;
+    }
+    .footer__contacts {
+        display: flex;
+        flex-direction: column;
+    }    
+}
+
+@media screen and (max-width:640px) {
+    .nav__menu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer__list {
+        max-width: 200px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .collection__big-card_desc-h {
+        font-size: 18px;
+    }
+    .collection__big-card_desc-p {
+        font-size: 14px;
+    }
+    .collection__cards-item-h {
+        font-size: 18px;
+    }
+    .collection__cards-item-p {
+        font-size: 14px;
+    }
+    .footer__form-input {
+        font-size: 14px;
+    }
+    .footer__form-textarea {
+        font-size: 14px;
+    }
+    .footer__form-submit {
+        font-size: 14px;
+    }
+    .footer__list {
+        font-size: 14px;
+        justify-content: space-between;
+    }
+    .footer__contacts {
+        padding-left: 10px;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .collection__big-card img {
+        max-width: 400px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .header__nav {
+        flex-direction: column;
+        padding-top: 15px;   
+    }
+    .nav__menu {
+        justify-content: space-around;
+    }
+    
+}
+
+@media screen and (max-width:360px) {
+    .banner__title {
+        font-size: 32px;
+    }
+    .banner__p {
+        font-size: 16px;
+    }
+    .collection__big-card img {
+        max-width: 300px;
+        width: 100%;
+    }
+    .footer__wrap {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .footer__contacts {
+        flex-direction: row;
+    }
+    .footer__contacts {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .collection__big-card_desc-h {
+        font-size: 15px;
+    }
+    .collection__big-card_desc-p {
+        font-size: 13px;
+    }
+    .collection__cards-item-h {
+        font-size: 15px;
+    }
+    .collection__cards-item-p {
+        font-size: 13px;
+    }
+
+}
